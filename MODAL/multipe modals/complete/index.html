@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Multiple Modals</title>
+	</head>
+	<body>
+		<section class="our-products">
+			<div class="container">
+				<h2 class="section-title">Our products</h2>
+
+				<article class="product shoe-vans spacing">
+					<img src="imgs/shoe-1.png" alt="" class="product__image" />
+					<h3 class="product__title">Vans&#169;</h3>
+					<p class="product__description">A pretty cool shoe, Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ex eius, ea inventore quisquam explicabo?</p>
+					<button class="button open-button" data-modal="0">BUY NOW</button>
+				</article>
+
+				<article class="product shoe-puma spacing">
+					<img src="imgs/shoe-2.png" alt="" class="product__image" />
+					<h3 class="product__title">Puma&#169;</h3>
+					<p class="product__description">A cool shoe, Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi ut molestiae, aliquam quae nobis!</p>
+					<button class="button open-button" data-modal="1">BUY NOW</button>
+				</article>
+
+				<article class="product shoe-LV spacing">
+					<img src="imgs/shoe-3.png" alt="" class="product__image" />
+					<h3 class="product__title">Louis Vitton&#169;</h3>
+					<p class="product__description">The Most Dopest Shoe, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem assumenda amet culpa soluta.</p>
+					<button class="button open-button" data-modal="2">BUY NOW</button>
+				</article>
+
+				<dialog id="modal"></dialog>
+			</div>
+		</section>
+
+		<script src="script.js"></script>
+	</body>
+</html>
